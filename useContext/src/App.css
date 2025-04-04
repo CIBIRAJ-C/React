@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  .component-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  
+  .use-context {
+    border-left: 5px solid #4CAF50;
+  }
+  
+  
+  .prop-drilling {
+    border-left: 5px solid #2196F3;
+  }
+  
